@@ -1,0 +1,56 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.image {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+.upperImage {
+  float: left;
+  width: 50%;
+  height: 40vh;
+  background: #de5617;
+}
+
+.lowerImage {
+  width: 100%;
+  height: 30vh;
+  background: #0d5d58;
+}
+
+p {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
+  font-size: 20px;
+
+  font-family: "Times New Roman", Times, serif;
+  color: white;
+}
+
+.upperText, .lowerText {
+  position: relative;
+  float: right;
+  text-align: center;
+}
+
+.upperText {
+  width: 50%;
+  height: 40vh;
+  background: #dea217;
+}
+
+.lowerText {
+  width: 100%;
+  height: 30vh;
+  background: #0d475d;
+}
