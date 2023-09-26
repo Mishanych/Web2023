@@ -1,0 +1,43 @@
+#container {
+    text-align: center;
+}
+
+body {
+    background-color: #ADD8E6;
+    font-family: "Times New Roman", Times, serif;
+    font-size: 1.2em;
+}
+
+table {
+    width: 100%;
+    border: 3px solid #4682B4;
+    border-collapse: collapse;
+    background-color: #B0E0E6;
+}
+
+tr:nth-child(2n+2) {
+    background-color: #87CEEB;
+}
+
+td {
+    border: 2px solid #4682B4;
+}
+
+button {
+    padding: 10px;
+    font-family: "Times New Roman", Times, serif;
+    font-size: 1.2em;
+    border: none;
+    background-color: #B0E0A6;
+    color: #4682B4;
+}
+
+button:hover {
+    background-color: #87CEEB;
+    border: none;
+}
+
+h1 {
+    font-size: 1.1em;
+    color: #4682B4;
+}
